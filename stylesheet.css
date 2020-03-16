@@ -1,10 +1,36 @@
+.nav-img{
+    width:175px;
+    height: 125px;
+    /* padding-left: 40px; */
+    padding-bottom: 60px;
+    float: left;
+
+
+}
+body {
+    padding-top: 36px;
+}
+
+.n-bar {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+
+
 .text {
+    padding-top:20px;
     color:white;
-    text-align: center;
+    text-align:center;
+   
 }
 
 .opac {
+    color: white;
     opacity : 0.7;
+    text-align: center;
 }
 
 .para {
@@ -15,19 +41,21 @@
     font-style: bold;
 
 }
+
+
 .image {
-    background-image: url("cover.jpg");
+    background-image: url("Ro54dB.jpg");
     width:100%;
     
 }
 
 .design {
     width:250px;
-    height: 250px;
+    height:250px;
     margin: 30px 40px 40px 30px;
     float: left;
     border-radius: 50%;
-    border:black solid 6px;
+    /* border:black solid 1px; */
     
     
 }
@@ -53,12 +81,52 @@ a {
 .shade {
     padding-left: 25px;
     text-shadow: 2px 2px gray;
+    padding:10px 25px;
 }
 
 .main {
-    /* background-color: #2196f3; */
+    /* background-color: rgb(129, 220, 236); */
     padding: 30px 30px;
 }
+
+.button{
+    align-content: right;
+}
+
+
+.box{
+    width:900px;
+    height: 300px ;
+    border:gray solid 1px; 
+    margin: 30px 20px 30px 40px;
+   
+}
+
+.img1{
+    widows: 200px;
+    height: 200px;
+    
+    float:right;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+
+
+.img-box{
+    padding:40px 30px 40px 30px;
+    
+}
+.speech {
+   
+   font-style: italic;
+   padding-left:30px
+    
+   
+    
+}
+
+
 
 .end {
     padding:20px 20px;
