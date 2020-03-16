@@ -2,41 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- AOS CSS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css"> 
+    <link rel="stylesheet" href="responsive.css.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Branch Website</title>
 </head>
 <body>
     <div>
+        <div class="n-bar">
+            <nav class="blue">
+                <div class="nav-wrapper">
+                   
+                     <img class="nav-img" src="mitelogo.png" alt="">
+                  
+                   
+                  <!-- <a href="#" class="align center brand-logo hide-only-med">WELCOME</a> -->
+                  <ul id="nav-mobile" class="right">
+                    <li><a href="#" class="hoverable">ABOUT</a></li>
+                    <li><a href="#" class="hoverable">ACADEMICS</a></li>
+                    <li><a href="#" class="hoverable">STAFF</a></li>
+                    <li><a href="#" class="hoverable">EVENTS</a></li>
+                    <li><a href="#" class="hoverable">PROJECTS</a></li>
+                    <li><a href="#" class="hoverable">CONTACT</a></li>
+                  </ul>
+                </div>
+            </nav>
+        </div> 
         
-        
-        <header class="image"> 
+        <header class="image">    
           
-            
-    
+            <div >
 
-
-
-              <div class="n-bar">
-                    <nav class="blue">
-                            <div class="nav-wrapper">
-                              <a href="#" class="align center brand-logo hide-only-med">WELCOME</a>
-                              <ul id="nav-mobile" class="right">
-                                <li><a href="#" class="hoverable">ABOUT</a></li>
-                                <li><a href="#" class="hoverable">CONTACTS</a></li>
-                              </ul>
-                            </div>
-                    </nav>
-             </div> 
-          
-            <div class="text" >
-            <h3>Computer Science & Engineering Department</h3>
+            <h3 class="text">Computer Science & Engineering Department</h3>
             <h4 class="opac">Mangalore Institute of Technology and Engineering</h4>
             </div>
 
@@ -55,40 +61,49 @@
                   
                   <div class="classroom">
                      
-                          <img class="design" src="images (3).jpeg" >
+                          <img class="design" src="class2.jpg" >
                     
                        
                        
                      
                       <div class="span">
                           <h5>Classrooms</h5>
-                          <span> Our college provides execellent classrooms with all required equipments.All the classrooms contain projector for visualized learning.The classrooms are also equipped with air conditioners to provide comfort to our students while studying </span> 
+                          <span> Our college provides execellent classrooms with all required equipments.All the classrooms contain projector for visualized learning.The classrooms are also equipped with air conditioners to provide comfort to our students while learning.</span> 
                       </div>
                       
                   </div>
 
                   <div class="lab">
                      
-                        <img class="design" src="images (4).jpeg" >
+                        <img class="design" src="lab.jpg" >
                      
                       
                      
                       
                       <div class="span">
                           <h5>Laboratories</h5>
-                          <span>Students, faculty and staff have access to the computer labs, which provide the tools and technologies to produce websites, edit papers, complete class assignments, communicate via email, conduct data analyses and access library resources</span>
+                          <span>Students, faculty and staff have access to the computer labs, which provide the tools and technologies to produce websites, edit papers, complete class assignments, communicate via email, conduct data analyses and access library resources.</span>
                       </div>
                   </div>
               </div> 
+              <p class="right-align">
+                <a class="waves-effect waves-light btn">SEE MORE   <i class="fa fa-building" aria-hidden="true"></i></a>
+              </p>
                
              <div>
 
                    <h4 class="shade">ACHIEVEMENTS</h4>
                    <div class="row">
+                     <!-- NBA CARD  -->
+                     <div data-aos="flip-up"
+                          data-aos-duration="5000"
+                          data-aos-easing="linear">
+
                       <div class="col s12 m4 hoverable">
                         <div class="card">
                           <div class="card-image">
                             <img src="nba2.jpg">
+                            
                             <!-- <span class="card-title black-text">NBA accrediated</span> -->
                           </div>
                           <div class="card-content">
@@ -98,26 +113,39 @@
                           
                         </div>
                       </div>
-                    
 
-                   
+                    </div>
+
+                        <!-- MSP card  -->
+                        <div data-aos="flip-up"
+                          data-aos-duration="5000"
+                          data-aos-easing="linear">
+
                         <div class="col s12 m4 hoverable">
                           <div class="card">
                             <div class="card-image">
                               <img src="MSP.png">
+                              
                               <!-- <span class="card-title">Card Title</span> -->
                             </div>
                             <div class="card-content">
-                              <p>Two students from our department, Mr.G M Mufeed and Mr.Shubham Dogra are the official Microsoft Student Partners </p>
+                              <p>Two students from our department, Mr.G M Mufeed and Mr.Shubham Dogra are the official Microsoft Student Partners.</p>
                             </div>
                             
                           </div>
                         </div>
-                    
+                        </div>
+
+                        <!-- INFITQ Card  -->
+                        <div data-aos="flip-up"
+                          data-aos-duration="5000"
+                          data-aos-easing="linear">
+
                         <div class="col s12 m4 hoverable">
                             <div class="card">
                               <div class="card-image">
                                 <img src="download.jpg">
+                                
                                 <!-- <span class="card-title black-text">NBA accrediated</span> -->
                               </div>
                               <div class="card-content">
@@ -126,6 +154,7 @@
                               </div>
                               
                             </div>
+                          </div>
                           </div>
 
                         </div>
@@ -145,7 +174,57 @@
                               </div>
                             </div>
                        </div>  -->
+                       <p class="right-align">
+                       <a class="waves-effect waves-light btn">SEE MORE <i class="fa fa-trophy" aria-hidden="true"></i></a>
+                       </p>
+                    </div> 
 
+
+                <div>
+                         <h4 class="shade">STUDENT TESTIMONIALS</h4>
+                         <div class="box">
+                          <div class="img-box"> 
+                                <img src="sithara.jpg" alt="" class="img1">
+                          </div>
+                          <div class="speech">
+                                 <p><b>Ms.Sindhoora.K,</b></p>
+                                 <p> <b>Support Engineer (Microsoft) 4MT15CS108</b></p>
+                                <span>"Mangalore Institute of Technology & Engineering and the department of Computer Science & Engineering have put in all the efforts to groom me and make me a corporate professional. The out of box initiatives of the institute has helped in my overall academic development and securing job in reputed organization Microsoft.Department of CS&E is one of the best place to groom an engineer."</span>
+                                          
+
+                          </div>
+                         </div>
+                         <div class="box">
+                              <div class="img-box"> 
+                                   <img src="roshan.jpg" alt="" class="img1">
+                              </div>
+                              <div class="speech">
+                                  <p><b>Mr.Rohith.R,</b></p>
+                                  <p><b>Senior Software Developer @ OlaCabs 4mt15CS098</b></p>
+                               <span>"My four years at Mangalore Intitute of Technology & Engineering and the Department of Computer Science have been excellent and a memory to cherish for a lifetime. The years spent here have been full of learning opportunities that were full of fun and frolic and sometimes with academic grind that one has to go through. The exposure you experience makes you a better person to face the challenges of the corporate world."</span>
+                                      
+
+                             </div>
+                           
+                        </div>
+                        <div class="box">
+                               <div class="img-box"> 
+                                   <img src="vineeth.jpg" alt="" class="img1">
+                               </div>
+                               <div class="speech">
+                                    <p><b>Mr.Vighnesh.M,</b></p>
+                                    <p> <b>Entrepreneur,
+                                      Co-Founder & Director,
+                                      ThinkBig Technologies Private Limited
+                                      4MT15CS064</b></p>
+                                    <span>"My journey as an entrepreneur started while I was pursuing my engineering. MITE College and the Department of Computer Science have supported in this journey of mine by providing the necessary guidelines. The department has provided great opportunities in continuing my career as an entrepreneur. The various initiatives and the activities organised by the department has inculcated enormous skills to reach my goal."</span>
+                                      
+
+                              </div>
+                           
+                        </div>
+
+                 </div>
 
 
 
@@ -170,7 +249,7 @@
 
                  
 
-             </div>  
+             
 
              
          
@@ -179,7 +258,7 @@
         <footer>
            <div class="end">
             
-             <p>Copyright <i class="material-icons">copyright</i> 2020 All rights reserved|</p>
+             <p>Copyright <i class="material-icons">copyright</i> 2020 All rights reserved |</p>
              <p>Website designed and developed by Sithara S Pai</p>
              <p>Email :paisitharas@gmail.com</p>
            
@@ -188,5 +267,10 @@
 
         </footer>
     </div>
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
